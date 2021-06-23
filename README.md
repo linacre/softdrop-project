@@ -1,6 +1,10 @@
 # softdrop-project
+
+Install docker if you have not already done so (https://docs.docker.com/get-docker/). Then:
+
 ```
 git clone https://github.com/linacre/softdrop-project.git
+cd softdrop-project
 docker build -t softdrop-project -f Dockerfile .
 docker run --rm -v [your local results directory]:/results -it -p 8888:8888 softdrop-project
 ```
