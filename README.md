@@ -14,4 +14,4 @@ jupyter notebook --ip 0.0.0.0 --allow-root
 
 The notebooks in your local results directory can then be run in your local web browser by navigating to http://127.0.0.1:8888/ (the required log-in token can be found in the output of the previous terminal command).
 
-Note that the docker image is quite large (~8 GB), so it may take some time to dhownload and build. You may also need to increase the amount of memory allocated to Docker in the 'Resources' section of the Docker preferences page.
+Note that the CMSSW docker image is quite large (~8 GB), so it may take some time to download and build. You may also need to increase the amount of memory allocated to Docker in the 'Resources' section of the Docker preferences page.
